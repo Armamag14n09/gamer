@@ -1,0 +1,33 @@
+/*.logo{
+    position: relative;
+    top: 40px;
+    left: 40px;
+
+}
+*/
+.navegacion{
+    background-color: antiquewhite;
+
+}
+
+.menu ul{
+    display: inline-block;
+    position: relative;
+    padding: 10px 10px;
+
+}
+
+.menu li a{
+
+    text-decoration: none;
+    }
+
+.submenu{
+    display: none;
+    background-color: aliceblue;
+
+}
+
+.menu li:hover .submenu{
+    display: block;
+}
